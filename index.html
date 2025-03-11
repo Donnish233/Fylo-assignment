@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+      <link rel="stylesheet" href="./src/output.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      #down{
+        background-image: url('./images/bg-curve-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header class="mx-auto w-10/12 flex justify-between">
+      <img src="./images/logo.svg" alt="Fylo logo" />
+      <nav>
+        <ul class="flex space-x-8 py-4">
+          <li>Features</li>
+          <li>Team</li>
+          <li>Sign In</li>
+        </ul>
+        
+      </nav>
+    </header>
+    <section class="mx-auto w-10/12 mb-16">
+      <div class="flex justify-between w-full">
+        <section>
+    <h1 class="text-4xl text-[#000026] font-semibold w-8/12">
+      All your files in one secure location, accessible anywhere.
+    </h1>
+    <div class="w-8/12">
+      <p>
+        Fylo stores your most important files in one secure location. Access
+        them wherever you need, share and collaborate with friends, family, and
+        co-workers.
+      </p>
+      <input type="text" name="" id="" placeholder="Enter your email..." class="rounded-sm border-2 border-black solid w-72 m-2 ml-0 h-10">
+      <button type="button" class="bg-blue-600 rounded w-36 m-2 ml-0 h-10">Get Started</button>
+    </div>
+    </section>
+    <img src="./images/illustration-1.svg" alt="" class="w-[40%]">
+      </div>
+    </section>
+    <section id="down" class="py-16 ">
+      <div class="w-10/12 mx-auto flex justify-between">
+        <section>
+      <h2 class="text-3xl text-[#000026] font-semibold">Stay productive, wherever you are</h2>
+      <p class="w-10/12">
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
+      </p>
+      <p class="w-[80%]">
+        Securely share files and folders with friends, family and colleagues for
+        live collaboration. No email attachments required!
+      </p>
+    
+      <p class="text-[#7EB6AB] underline">See how Fylo works <img src="./images/icon-arrow.svg" alt=""/></p>
+      <article class="bg-white rounded w-1/2">
+        <img src="./images/icon-quotes.svg" alt="" />
+      Fylo has improved our team productivity by an order of magnitude. Since
+      making the switch our team has become a well-oiled collaboration machine.
+      Kyle Burton Founder & CEO, Huddle
+      </article>
+        </section>
+        <img src="./images/illustration-2.svg" alt="" class="w-1/2">
+      </div>
+      </section>
+    <section class="bg-[#575989] text-white w-full">
+        <h3>Get early access today</h3>
+        <p>
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+        <button type="button">Get Started For Free</button>
+      </section>
+    <footer class="w-full bg-[#07043B] text-white">
+      
+      <img src="./images/2nd-logo.png" alt="" class="bg-inherit "/>
+      <img src="./images/icon-phone.svg" alt="" />Phone: +1-543-123-4567
+      <p>
+        <img src="./images/icon-email.svg" alt="" />
+        example@fylo.com
+      </p>
+
+      About Us Jobs Press Blog Contact Us Terms Privacy
+    </footer>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
